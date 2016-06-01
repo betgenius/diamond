@@ -4,7 +4,7 @@ metadata
 
 cookbook "python"
 cookbook "git"
-cookbook "build-essential"
+cookbook "build-essential","3.2.0"
 cookbook "runit","1.5.8"
 
 group :integration do
